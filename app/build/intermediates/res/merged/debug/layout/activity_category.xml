@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue400" >
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="10sp"
+        android:background="@color/Blue400"
+        android:drawableLeft="@drawable/ic_exit_to_app_white_24dp"
+        android:text=" Logout"
+        android:textColor="@color/WhiteSmoke" />
+
+    <TextView
+        android:id="@+id/tvbranchselected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnlogout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15sp"
+        android:textColor="@color/WhiteSmoke"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvbranchselected"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="35sp"
+        android:orientation="vertical" 
+        android:gravity="center"
+        android:layout_alignParentLeft="true">
+
+        <Button
+            android:id="@+id/btnElectronics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Blue400"
+            android:drawableTop="@drawable/electronics"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:text="Electronics"
+            android:textColor="@color/WhiteSmoke" />
+
+     <!-- <Button
+            android:id="@+id/btnHomeApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Blue400"
+            android:drawableTop="@drawable/home_appliance"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:text="Home\nAppliances"
+            android:layout_marginTop="25sp"
+            android:textColor="@color/WhiteSmoke" /> -->   
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvbranchselected"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="35sp"
+        android:orientation="vertical" 
+        android:gravity="center"
+        android:layout_alignParentRight="true">
+
+        <Button
+            android:id="@+id/btntvAudio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Blue400"
+            android:drawableTop="@drawable/tv_audio"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:text="TV Audio"
+            android:textColor="@color/WhiteSmoke" />
+
+       <!-- <Button
+            android:id="@+id/btnBabyCare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Blue400"
+            android:drawableTop="@drawable/baby_care"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:text="Baby Care"
+            android:layout_marginTop="25sp"
+            android:textColor="@color/WhiteSmoke" /> --> 
+    </LinearLayout>
+    
+     <Button
+            android:id="@+id/btnbeauty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Blue400"
+            android:drawableTop="@drawable/beauty"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/ll1"
+            android:layout_marginTop="35sp"
+            android:text="Health,\nBeauty and\nPersonal Care"
+            android:textColor="@color/WhiteSmoke" />
+     
+     <Button
+            android:id="@+id/btndone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Blue400"
+            android:drawableLeft="@drawable/ic_done_white_48dp"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20sp"
+            android:text="Done\nShopping"
+            android:textColor="@color/WhiteSmoke" />
+
+</RelativeLayout>

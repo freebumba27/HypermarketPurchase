@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/anirban/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/pre-dexed/debug/gson-2.4_81a56010e1c75a817cb96a843e75d1be142d96a5.jar" />
+    </item>
+    <item
+        jar="/home/anirban/.gradle/caches/modules-2/files-2.1/com.koushikdutta.ion/ion/2.1.4/512ec0f8e4ef42178afaa25e3e78c4b990be9b61/ion-2.1.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="512ec0f8e4ef42178afaa25e3e78c4b990be9b61">
+        <dex dex="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/pre-dexed/debug/ion-2.1.4_1e7d568c7ce1504db4d35b8fd9745420a228adee.jar" />
+    </item>
+    <item
+        jar="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.1_c0f228153125c81d108e23b4d4077ecf899993e1.jar" />
+    </item>
+    <item
+        jar="/home/anirban/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.1/86b122e640af09b0723e1fa44083c354ba6d9089/glide-3.6.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/pre-dexed/debug/glide-3.6.1_b4c873d474dc0adae948b9fabc57f790c1de8e1e.jar" />
+    </item>
+    <item
+        jar="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_bbce32d6bfa6f6b47129cdf5a1a4fe4b0d9bb951.jar" />
+    </item>
+    <item
+        jar="/home/anirban/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1_33652c1dd5fb649a1c657675f9531365b23d558b.jar" />
+    </item>
+    <item
+        jar="/home/anirban/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0_b8e6db94ff364ba1a4fbf5f49605759c59ed5443.jar" />
+    </item>
+    <item
+        jar="/home/anirban/.gradle/caches/modules-2/files-2.1/com.path/android-priority-jobqueue/1.1.2/b3549df66f71fb135bce3300eecb1a88fd45d86f/android-priority-jobqueue-1.1.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b3549df66f71fb135bce3300eecb1a88fd45d86f">
+        <dex dex="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/pre-dexed/debug/android-priority-jobqueue-1.1.2_569d077bc203804d4d062df4d79339a8a1bd22a8.jar" />
+    </item>
+    <item
+        jar="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_76296131c72eb18610c5a0e6bd5a2b9a49190885.jar" />
+    </item>
+    <item
+        jar="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_07de9556d16f1d399cff2e736afdd7a31fab5b8a.jar" />
+    </item>
+    <item
+        jar="/home/anirban/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_76af03a31e76241eab53a48695e17c325c0c01c3.jar" />
+    </item>
+    <item
+        jar="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_b8c2625c345135a22103c26ee70487eae04d903d.jar" />
+    </item>
+    <item
+        jar="/home/anirban/.gradle/caches/modules-2/files-2.1/com.koushikdutta.async/androidasync/2.1.4/44504f462f292532739c35a624004bd1b0a4385b/androidasync-2.1.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="44504f462f292532739c35a624004bd1b0a4385b">
+        <dex dex="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/pre-dexed/debug/androidasync-2.1.4_6615eef083d7dba7bddb502739b58a92f5c43849.jar" />
+    </item>
+    <item
+        jar="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.1.1_9146f7405ed8854d29afcbe1f4e6ed6d05f42b53.jar" />
+    </item>
+
+</items>
