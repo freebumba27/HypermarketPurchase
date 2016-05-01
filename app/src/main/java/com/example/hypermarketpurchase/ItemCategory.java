@@ -29,7 +29,6 @@ import de.greenrobot.event.EventBus;
 public class ItemCategory extends Activity {
 
     TextView tvSelectedBranch;
-    Bundle b;
     Button logout, done;
     ItemsCount obj;
 
@@ -37,15 +36,15 @@ public class ItemCategory extends Activity {
     RecyclerView categoryList;
     @Bind(R.id.progress)
     ProgressBar progress;
-
-    CategoryListAdapter categoryListAdapter;
-    LinearLayoutManager linearLayoutManager;
     @Bind(R.id.btnlogout)
     Button btnlogout;
     @Bind(R.id.tvbranchselected)
     TextView tvbranchselected;
     @Bind(R.id.btndone)
     Button btndone;
+
+    CategoryListAdapter categoryListAdapter;
+    LinearLayoutManager linearLayoutManager;
 
 
     @Override
@@ -59,7 +58,7 @@ public class ItemCategory extends Activity {
 
         initialize();
 
-        categoryListAdapter = new CategoryListAdapter(this);
+        categoryListAdapter = new CategoryListAdapter(this, ReuseableClass.getFromPreference("branchName", this));
         linearLayoutManager = new LinearLayoutManager(this);
 
         categoryList.setLayoutManager(linearLayoutManager);
@@ -79,13 +78,11 @@ public class ItemCategory extends Activity {
 
     protected void initialize() {
         tvSelectedBranch = (TextView) findViewById(R.id.tvbranchselected);
-        b = getIntent().getExtras();
+
         tvSelectedBranch.setText("Branch Selected: \n"
-                + b.getCharSequence("branchName"));
+                + ReuseableClass.getFromPreference("branchName", this));
 
         obj = new ItemsCount();
-        obj.setBundle(b);
-        obj.setIntent(getIntent());
     }
 
     @OnClick(R.id.btnlogout)
@@ -126,7 +123,7 @@ public class ItemCategory extends Activity {
         } else {
             Intent i = new Intent(ItemCategory.this,
                     FinalActivity.class);
-            i.putExtra("branchName", b.getCharSequence("branchName"));
+            i.putExtra("branchName", ReuseableClass.getFromPreference("branchName", this));
             finish();
             startActivity(i);
         }

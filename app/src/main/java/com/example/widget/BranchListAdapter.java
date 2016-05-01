@@ -14,6 +14,7 @@ import com.bumptech.glide.Glide;
 import com.example.hypermarketpurchase.ItemCategory;
 import com.example.hypermarketpurchase.R;
 import com.example.models.BranchListResponse;
+import com.example.utils.ReuseableClass;
 
 import java.util.ArrayList;
 
@@ -56,8 +57,8 @@ public class BranchListAdapter extends RecyclerView.Adapter<BranchListAdapter.My
         holder.linearLayoutBranch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                ReuseableClass.saveInPreference("branchName", branchListResponses.get(position).getBranch_name(), context);
                 Intent intent = new Intent(context, ItemCategory.class);
-                intent.putExtra("branchName", branchListResponses.get(position).getBranch_name());
                 context.startActivity(intent);
             }
         });

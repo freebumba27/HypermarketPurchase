@@ -1,10 +1,7 @@
 package com.example.hypermarketpurchase;
 
-import java.util.StringTokenizer;
-
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.ClipData.Item;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,6 +13,8 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.StringTokenizer;
 
 public class ElectronicsActivity extends Activity {
 
@@ -33,7 +32,7 @@ public class ElectronicsActivity extends Activity {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 				WindowManager.LayoutParams.FLAG_FULLSCREEN);
-		setContentView(R.layout.activity_electronics);
+		setContentView(R.layout.activity_products);
 		initialize();
 		setListener();
 	}

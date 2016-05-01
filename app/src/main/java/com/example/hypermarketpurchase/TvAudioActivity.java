@@ -1,7 +1,5 @@
 package com.example.hypermarketpurchase;
 
-import java.util.StringTokenizer;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -15,6 +13,8 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.StringTokenizer;
 
 public class TvAudioActivity extends Activity {
 
@@ -49,8 +49,8 @@ public class TvAudioActivity extends Activity {
 		cart = (Button) findViewById(R.id.btncart);
 		tvSelectedBranch = (TextView) findViewById(R.id.tvbranchselected);
 		b = getIntent().getExtras();
-		tvSelectedBranch.setText("Branch Selected: \n"
-				+ b.getCharSequence("branchName"));
+//		tvSelectedBranch.setText("Branch Selected: \n"
+//				+ b.getCharSequence("branchName"));
 	}
 
 	protected void setListener() {

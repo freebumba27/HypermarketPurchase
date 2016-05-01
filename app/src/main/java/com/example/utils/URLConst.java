@@ -20,4 +20,18 @@ public class URLConst {
                 .appendPath("category_list.php")
                 .toString();
     }
+
+    public static String getProductList(String categoryId) {
+        return Uri.parse(BASE_URL).buildUpon()
+                .appendPath("product_list.php")
+                .appendQueryParameter("category_id", categoryId)
+                .toString();
+    }
+
+    public static String getEmail(String email) {
+        return Uri.parse(BASE_URL).buildUpon()
+                .appendPath("cart_order.php")
+                .appendQueryParameter("email", email)
+                .toString();
+    }
 }
