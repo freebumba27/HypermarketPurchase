@@ -14,4 +14,10 @@ public class URLConst {
                 .appendPath("branch_list.php")
                 .toString();
     }
+
+    public static String getCategoryList() {
+        return Uri.parse(BASE_URL).buildUpon()
+                .appendPath("category_list.php")
+                .toString();
+    }
 }

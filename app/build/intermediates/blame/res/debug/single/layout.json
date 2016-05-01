@@ -112,6 +112,10 @@
         "source": "/media/anirban/Development/Development/freelancer_workspace/Ibraheem Alrashid - Saudi Arabia/src/HypermarketPurchase/app/src/main/res/layout/activity_sign_up_screen.xml"
     },
     {
+        "merged": "/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/res/merged/debug/layout/category_list_row.xml",
+        "source": "/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/src/main/res/layout/category_list_row.xml"
+    },
+    {
         "merged": "/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
         "source": "/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_multichoice_material.xml"
     },

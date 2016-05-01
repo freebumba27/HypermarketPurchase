@@ -8,8 +8,9 @@ import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.Toast;
@@ -17,11 +18,7 @@ import android.widget.Toast;
 import com.example.events.GetBranchListEvent;
 import com.example.jobs.GetBranchListJob;
 import com.example.utils.ReuseableClass;
-import com.example.utils.URLConst;
 import com.example.widget.BranchListAdapter;
-import com.google.gson.JsonObject;
-import com.koushikdutta.async.future.FutureCallback;
-import com.koushikdutta.ion.Ion;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -44,12 +41,13 @@ public class BranchActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.acivity_branch);
         ButterKnife.bind(this);
 
         branchListAdapter = new BranchListAdapter(BranchActivity.this);
-        branchList.setLayoutManager(linearLayoutManager);
-        branchList.setHasFixedSize(true);
         linearLayoutManager = new GridLayoutManager(this, 2);
         branchList.setLayoutManager(linearLayoutManager);
         branchList.setAdapter(branchListAdapter);
@@ -62,17 +60,6 @@ public class BranchActivity extends Activity {
             progress.setVisibility(View.VISIBLE);
 
             MyApplication.addJobInBackground(new GetBranchListJob());
-
-            Ion.with(this)
-                    .load(URLConst.getBranchList())
-                    .asJsonObject()
-                    .setCallback(new FutureCallback<JsonObject>() {
-                                     @Override
-                                     public void onCompleted(Exception e, JsonObject result) {
-                                         Log.d("AJTAG", "onCompleted: "+ result);
-                                     }
-                                 }
-                    );
         } else
             Toast.makeText(this, R.string.error_internet_connection, Toast.LENGTH_LONG).show();
     }
