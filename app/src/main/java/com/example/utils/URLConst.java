@@ -6,7 +6,7 @@ import android.net.Uri;
  * Created by anirban on 5/1/16.
  */
 public class URLConst {
-    public static final String BASE_URL = "http://63.142.250.90:8080/html/hypermarket/api/";
+    public static final String BASE_URL = "http://freebumba27.com/hypermarket/api/";
 
 
     public static String getBranchList() {

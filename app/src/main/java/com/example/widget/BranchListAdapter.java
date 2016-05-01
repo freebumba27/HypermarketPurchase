@@ -39,9 +39,9 @@ public class BranchListAdapter extends RecyclerView.Adapter<BranchListAdapter.My
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
 
-        if (branchListResponses.get(position).getCategory_image() != null)
+        if (branchListResponses.get(position).getBranch_image() != null)
             Glide.with(context)
-                    .load(branchListResponses.get(position).getCategory_image())
+                    .load(branchListResponses.get(position).getBranch_image())
                     .centerCrop()
                     .placeholder(R.drawable.placeholder)
                     .crossFade()
@@ -49,7 +49,7 @@ public class BranchListAdapter extends RecyclerView.Adapter<BranchListAdapter.My
         else
             holder.ImageViewBranchImage.setImageResource(R.drawable.placeholder);
 
-        holder.textViewBranchName.setText(branchListResponses.get(position).getCategory_name());
+        holder.textViewBranchName.setText(branchListResponses.get(position).getBranch_name());
     }
 
     @Override
@@ -57,8 +57,8 @@ public class BranchListAdapter extends RecyclerView.Adapter<BranchListAdapter.My
         return branchListResponses.size();
     }
 
-    public void addingList(ArrayList<BranchListResponse> branchListResponses) {
-        this.branchListResponses = branchListResponses;
+    public void addingList(ArrayList<BranchListResponse> list) {
+        this.branchListResponses = list;
         notifyDataSetChanged();
     }
 

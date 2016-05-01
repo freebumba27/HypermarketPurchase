@@ -10,8 +10,8 @@ import java.util.ArrayList;
  */
 public class BranchListResponse {
     private int id;
-    private String category_name;
-    private String category_image;
+    private String branch_name;
+    private String branch_image;
 
     public int getId() {
         return id;
@@ -21,20 +21,20 @@ public class BranchListResponse {
         this.id = id;
     }
 
-    public String getCategory_name() {
-        return category_name;
+    public String getBranch_name() {
+        return branch_name;
     }
 
-    public void setCategory_name(String category_name) {
-        this.category_name = category_name;
+    public void setBranch_name(String branch_name) {
+        this.branch_name = branch_name;
     }
 
-    public String getCategory_image() {
-        return category_image;
+    public String getBranch_image() {
+        return branch_image;
     }
 
-    public void setCategory_image(String category_image) {
-        this.category_image = category_image;
+    public void setBranch_image(String branch_image) {
+        this.branch_image = branch_image;
     }
 
     public static ArrayList<BranchListResponse> toList(String json) {

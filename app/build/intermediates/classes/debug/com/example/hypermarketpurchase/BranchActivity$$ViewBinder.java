@@ -8,8 +8,8 @@ import butterknife.ButterKnife.ViewBinder;
 public class BranchActivity$$ViewBinder<T extends com.example.hypermarketpurchase.BranchActivity> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131427434, "field 'btnlogout' and method 'logout'");
-    target.btnlogout = finder.castView(view, 2131427434, "field 'btnlogout'");
+    view = finder.findRequiredView(source, 2131427433, "field 'btnlogout' and method 'logout'");
+    target.btnlogout = finder.castView(view, 2131427433, "field 'btnlogout'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -20,10 +20,13 @@ public class BranchActivity$$ViewBinder<T extends com.example.hypermarketpurchas
       });
     view = finder.findRequiredView(source, 2131427435, "field 'branchList'");
     target.branchList = finder.castView(view, 2131427435, "field 'branchList'");
+    view = finder.findRequiredView(source, 2131427434, "field 'progress'");
+    target.progress = finder.castView(view, 2131427434, "field 'progress'");
   }
 
   @Override public void unbind(T target) {
     target.btnlogout = null;
     target.branchList = null;
+    target.progress = null;
   }
 }

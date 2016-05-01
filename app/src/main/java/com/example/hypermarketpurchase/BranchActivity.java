@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
@@ -16,7 +17,11 @@ import android.widget.Toast;
 import com.example.events.GetBranchListEvent;
 import com.example.jobs.GetBranchListJob;
 import com.example.utils.ReuseableClass;
+import com.example.utils.URLConst;
 import com.example.widget.BranchListAdapter;
+import com.google.gson.JsonObject;
+import com.koushikdutta.async.future.FutureCallback;
+import com.koushikdutta.ion.Ion;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -57,6 +62,17 @@ public class BranchActivity extends Activity {
             progress.setVisibility(View.VISIBLE);
 
             MyApplication.addJobInBackground(new GetBranchListJob());
+
+            Ion.with(this)
+                    .load(URLConst.getBranchList())
+                    .asJsonObject()
+                    .setCallback(new FutureCallback<JsonObject>() {
+                                     @Override
+                                     public void onCompleted(Exception e, JsonObject result) {
+                                         Log.d("AJTAG", "onCompleted: "+ result);
+                                     }
+                                 }
+                    );
         } else
             Toast.makeText(this, R.string.error_internet_connection, Toast.LENGTH_LONG).show();
     }
@@ -125,7 +141,7 @@ public class BranchActivity extends Activity {
     public void onEventMainThread(GetBranchListEvent.Fail event) {
         progress.setVisibility(View.INVISIBLE);
         if (event.getEx() != null) {
-            new android.support.v7.app.AlertDialog.Builder(this)
+            new AlertDialog.Builder(this)
                     .setMessage(event.getEx().getMessage())
                     .setPositiveButton("OK", null)
                     .show();

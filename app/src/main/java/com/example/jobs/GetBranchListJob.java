@@ -51,7 +51,6 @@ public class GetBranchListJob extends Job {
 
         Response<String> response = Ion.with(context)
                 .load("GET", url)
-                .addHeader("Content-Type", "application/json")
                 .setStringBody("")
                 .asString()
                 .withResponse()
