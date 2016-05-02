@@ -36,6 +36,10 @@
         "source": "/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/src/main/res/drawable-hdpi/carrefourlog.png"
     },
     {
+        "merged": "/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/welcomesceen.png",
+        "source": "/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/src/main/res/drawable-hdpi/welcomesceen.png"
+    },
+    {
         "merged": "/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
         "source": "/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_textfield_activated_mtrl_alpha.9.png"
     },
@@ -238,6 +242,10 @@
     {
         "merged": "/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
         "source": "/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/logo.png",
+        "source": "/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/src/main/res/drawable-hdpi/logo.png"
     },
     {
         "merged": "/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png",

@@ -100,6 +100,10 @@
         "source": "/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/welcomesceen.png",
+        "source": "/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/src/main/res/drawable-mdpi/welcomesceen.png"
+    },
+    {
         "merged": "/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png",
         "source": "/media/anirban/Development/Development/freelancer_workspace/Binay - Android/Meoal/src/HypermarketPurchase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-mdpi/abc_btn_rating_star_off_mtrl_alpha.png"
     },
